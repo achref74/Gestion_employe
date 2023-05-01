@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>oublier</class>
+ <widget class="QDialog" name="oublier">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>822</width>
+    <height>619</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>110</y>
+     <width>651</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 9pt &quot;Adobe Caslon Pro Bold&quot;;</string>
+   </property>
+   <property name="title">
+    <string>Forgot</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="nomut">
+      <property name="text">
+       <string>RFID</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="RFID">
+      <property name="styleSheet">
+       <string notr="true">QLineEdit
+{
+border-radius:9px;
+border: 2px solid #000000;
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.0, fy: -0.0,
+radius: 1.89, stop: 0 #ffffff, stop: 1 #999);
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="Scan">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+color: #ffffff;
+border: 3px solid #010203;
+font: 8pt &quot;MS Reference Sans Serif&quot;;
+border-radius: 15px;
+padding: 5px;
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.3, fy: -0.4,
+radius: 3, stop: 0 #010203, stop: 1 #c4c9c7);
+min-width: 80px;
+}
+
+QPushButton:hover {
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.3, fy: -0.4,
+radius: 3, stop: 0 #010203, stop: 1 #010203);
+}
+
+ QPushButton:pressed {
+background: qradialgradient(cx: 0.4, cy: -0.1,
+fx: 0.4, fy: -0.1,
+radius: 3, stop: 0 #c4c9c7, stop: 1 #c4c9c7);
+}</string>
+      </property>
+      <property name="text">
+       <string>Scan</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="nomut_2">
+      <property name="text">
+       <string>Entrez votre nouveau mot de passe</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="mdp_in">
+      <property name="styleSheet">
+       <string notr="true">QLineEdit
+{
+border-radius:9px;
+border: 2px solid #000000;
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.0, fy: -0.0,
+radius: 1.89, stop: 0 #ffffff, stop: 1 #999);
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="nomut_3">
+      <property name="text">
+       <string>Confirmez votre nouveau mot de passe</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="mdp_in_2">
+      <property name="styleSheet">
+       <string notr="true">QLineEdit
+{
+border-radius:9px;
+border: 2px solid #000000;
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.0, fy: -0.0,
+radius: 1.89, stop: 0 #ffffff, stop: 1 #999);
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="Submit">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+color: #ffffff;
+border: 3px solid #010203;
+font: 8pt &quot;MS Reference Sans Serif&quot;;
+border-radius: 15px;
+padding: 5px;
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.3, fy: -0.4,
+radius: 3, stop: 0 #010203, stop: 1 #c4c9c7);
+min-width: 80px;
+}
+
+QPushButton:hover {
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.3, fy: -0.4,
+radius: 3, stop: 0 #010203, stop: 1 #010203);
+}
+
+ QPushButton:pressed {
+background: qradialgradient(cx: 0.4, cy: -0.1,
+fx: 0.4, fy: -0.1,
+radius: 3, stop: 0 #c4c9c7, stop: 1 #c4c9c7);
+}</string>
+      </property>
+      <property name="text">
+       <string>Submit</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="Submit_2">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+color: #ffffff;
+border: 3px solid #010203;
+font: 8pt &quot;MS Reference Sans Serif&quot;;
+border-radius: 15px;
+padding: 5px;
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.3, fy: -0.4,
+radius: 3, stop: 0 #010203, stop: 1 #c4c9c7);
+min-width: 80px;
+}
+
+QPushButton:hover {
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.3, fy: -0.4,
+radius: 3, stop: 0 #010203, stop: 1 #010203);
+}
+
+ QPushButton:pressed {
+background: qradialgradient(cx: 0.4, cy: -0.1,
+fx: 0.4, fy: -0.1,
+radius: 3, stop: 0 #c4c9c7, stop: 1 #c4c9c7);
+}</string>
+      </property>
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

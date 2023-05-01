@@ -1,0 +1,2 @@
+#include "camerawidget.h"
+

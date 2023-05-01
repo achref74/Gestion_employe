@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>773</width>
+    <height>571</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>80</y>
+      <width>621</width>
+      <height>291</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 9pt &quot;Adobe Caslon Pro Bold&quot;;</string>
+    </property>
+    <property name="title">
+     <string>Login</string>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLabel" name="nomut_2">
+       <property name="text">
+        <string>Nom d'utilisateur:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="nomut_in_2">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit
+{
+border-radius:9px;
+border: 2px solid #000000;
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.0, fy: -0.0,
+radius: 1.89, stop: 0 #ffffff, stop: 1 #999);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="mdp_2">
+       <property name="text">
+        <string>Mot de passe:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="mdp_in_2">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit
+{
+border-radius:9px;
+border: 2px solid #000000;
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.0, fy: -0.0,
+radius: 1.89, stop: 0 #ffffff, stop: 1 #999);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::Password</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="seconnecter_2">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+color: #ffffff;
+border: 3px solid #010203;
+font: 8pt &quot;MS Reference Sans Serif&quot;;
+border-radius: 15px;
+padding: 5px;
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.3, fy: -0.4,
+radius: 3, stop: 0 #010203, stop: 1 #c4c9c7);
+min-width: 80px;
+}
+
+QPushButton:hover {
+background: qradialgradient(cx: 0.3, cy: -0.4,
+fx: 0.3, fy: -0.4,
+radius: 3, stop: 0 #010203, stop: 1 #010203);
+}
+
+ QPushButton:pressed {
+background: qradialgradient(cx: 0.4, cy: -0.1,
+fx: 0.4, fy: -0.1,
+radius: 3, stop: 0 #c4c9c7, stop: 1 #c4c9c7);
+}</string>
+       </property>
+       <property name="text">
+        <string>Se connecter</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCommandLinkButton" name="oublie_2">
+       <property name="font">
+        <font>
+         <family>Adobe Caslon Pro Bold</family>
+         <pointsize>9</pointsize>
+         <weight>9</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Mot de passe oublié?</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>773</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
